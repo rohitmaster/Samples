@@ -1,0 +1,78 @@
+
+- Maven is a powerful project management tool that is based on POM (project object model). 
+
+- It is used for projects build, dependency and documentation.
+
+Understanding the problem without Maven
+---------------------------------------
+
+There are many problems that are faced by developers and testers during the project development. They are discussed below:
+
+1) Adding set of Jars in each project: In case of struts, spring, hibernate frameworks, we need to add set of jar files in each project. It must include all the dependencies of jars also.
+
+2) Creating the right project structure: We must create the right project structure in servlet, struts etc, otherwise it will not be executed.
+
+3) Building and Deploying the project: We must have to build and deploy the project so that it may work.
+
+What it does?
+-------------
+
+Maven simplifies the above mentioned problems. It does mainly following tasks.
+
+    It makes a project easy to build
+    It provides uniform build process (maven project can be shared by all the maven projects)
+    It provides project information (log document, cross referenced sources, mailing list, dependency list, unit test reports etc.)
+    It is easy to migrate for new features of Maven
+
+Apache Maven helps to manage
+
+    Builds
+    Documentation
+    Reporing
+    SCMs
+    Releases
+    Distribution
+
+Difference between ant and maven
+---------------------------------
+
+- Ant and Maven both are build tools provided by Apache. The main purpose of these technologies is to ease the build process of a project.
+
+- There are many differences between ant and maven that are given below:
+
+
+Ant
+----
+	
+- Ant doesn't has formal conventions, so we need to provide information of the project structure in build.xml file.	
+
+- Ant is procedural, you need to provide information about what to do and when to do through code. You need to provide order.	
+
+- There is no life cycle in Ant.	
+
+- It is a tool box.	
+
+- It is mainly a build tool.	
+
+- The ant scripts are not reusable.
+	
+- It is less preferred than Maven.	
+
+
+Maven
+-----
+
+- Maven has a convention to place source code, compiled code etc. So we don't need to provide information about the project structure in pom.xml file.
+
+- Maven is declarative, everything you define in the pom.xml file.
+
+- There is life cycle in Maven.
+
+- It is a framework.
+
+- It is mainly a project management tool.
+
+- The maven plugins are reusable.
+
+- It is more preferred than Ant.
+
